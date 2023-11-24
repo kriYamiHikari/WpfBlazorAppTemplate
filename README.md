@@ -28,8 +28,14 @@ csprjファイルのTargetFrameworkの設定をビルドを行うdotnet sdkの�
 
 プロジェクトディレクトリ内で以下のコマンドを入力して、パッケージのインストールを行います。
 
+#### net8.0
 ```
 dotnet add package Microsoft.AspNetCore.Components.WebView.Wpf
+```
+
+#### net7.0
+```
+dotnet add package Microsoft.AspNetCore.Components.WebView.Wpf --version 7.0.101
 ```
 
 ### ビルド
