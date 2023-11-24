@@ -1,0 +1,2 @@
+# WpfBlazorAppTemplate
+WPF Blazorアプリを作成するためのテンプレート
