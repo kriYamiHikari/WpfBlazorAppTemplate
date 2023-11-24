@@ -19,10 +19,6 @@ namespace ___PROJECTNAME___
             serviceCollection.AddWpfBlazorWebView();
             Resources.Add("services", serviceCollection.BuildServiceProvider());
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-        }
     }
 
 }
