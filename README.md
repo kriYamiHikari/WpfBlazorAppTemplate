@@ -3,13 +3,19 @@ WPF Blazorアプリを作成するためのテンプレート
 
 ## 使用法
 
-### プロジェクトファイル名の変更
+### テンプレートの取得
 
-`___PROJECTNAME___.csproj`の``___PROJECTNAME___`'をプロジェクト名に変更する
+`git clone https://github.com/kznagamori/WpfBlazorAppTemplate.git`
 
-### テンプレート名の置換
+### テンプレートのインストール
 
-エディターなどを使用して、ファイル名内に記載している`___PROJECTNAME___`をプロジェクト名に置換する。
+`dotnet new install .\WpfBlazorAppTemplate`
+
+### WPF Blazorアプリプロジェクトの作成
+
+`dotnet new wpf-blazor -n <プロジェクト名>`
+
+**例:** `dotnet new wpf-blazor -n MyWpfBlazor`
 
 ### ターゲットの設定
 

@@ -1,22 +1,21 @@
 {
-    "$schema": "http://json.schemastore.org/template",
-    "author": "kznanamori",
-    "classifications": [ "Common", "Code" ],
-    "identity": "kznagamori.WpfBlazorApp",
-    "name": "Wpf Blazor Application",
-    "shortName": "wpf-blazor",
-    "preferNameDirectory": true,
-    "tags": {
-      "language": "C#",
-      "type": "project"
-    },
-    "sourceName": "___PROJECTNAME___",
-    "symbols": {
-      "projectname": {
-        "type": "parameter",
-        "replaces": "___PROJECTNAME___",
-        "defaultValue": "MyProject",
-        "description": "The name of the project"
-      }
-    }
+  "$schema": "http://json.schemastore.org/template",
+  "author": "kznanamori",
+  "classifications": [ "Common", "Code" ],
+  "identity": "kznagamori.WpfBlazorApp",
+  "name": "Wpf Blazor Application",
+  "shortName": "wpf-blazor",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "___PROJECTNAME___",
+  "symbols": {
+    "type": "generated",
+    "generator": "name",
+    "replaces": "___PROJECTNAME___",
+    "defaultValue": "MyProject",
+    "description": "The name of the project"
   }
+}
