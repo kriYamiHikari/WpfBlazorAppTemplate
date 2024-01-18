@@ -5,7 +5,7 @@ WPF Blazorアプリを作成するためのテンプレート
 
 ### テンプレートの取得
 
-`git clone https://github.com/kznagamori/WpfBlazorAppTemplate.git`
+`https://github.com/kznagamori/WpfBlazorAppTemplate.git`をダウンロードして、任意のディレクトリに展開します。
 
 ### テンプレートのインストール
 
